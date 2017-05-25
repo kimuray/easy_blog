@@ -1,0 +1,5 @@
+- @blogs.each do |blog|
+  p = blog.title
+  p = l(blog.created_at, format: :default)
+
+= link_to 'ブログ投稿', new_blog_path
